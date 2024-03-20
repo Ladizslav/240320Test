@@ -1,0 +1,14 @@
+1. Vyrvoření databáze : create databaze jmeno_databáze
+2. Použití databáze: use jmeno_databáze
+3. Vytvoření tablu User:
+CREATE TABLE users (
+id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+username varchar(100) NOT NULL,
+password varchar(100) NOT NULL)   
+4. Zapnutí a nastavení XAMPP: V XAMPP do Configu Apache a nastavit cestu k souboru a zapněte po tom Apache 
+5. Na vyhledávači napsat localhost
+
+
+
+Informace projektu: 
+Fungujou hezká jména, ale kvůli tomu nefunguje napsání špatného odkazu a aby to nehodilo na index.php. 
